@@ -3,6 +3,8 @@
 El código Java proporciona un programa interactivo que muestra información sobre 3 películas, como su título, fecha de lanzamiento, evaluación y sinopsis. Luego, solicita al usuario que ingrese tres calificaciones para la película y calcula la media de estas calificaciones. Finalmente, muestra la media calculada al usuario. 
 Además, verifica una condición usando `if` y `else`.
 
+Es una segunda versión del desafío de la inmersión Java de Alura Latam.
+
 ---
 ## Breve explicación del código y los ciclos utilizados:
 
@@ -359,3 +361,9 @@ Para clonar este proyecto en GitHub y poderlo probar se realizan los siguientes 
 
 7. **Esperar a que se complete la clonación:** Git descargará todos los archivos del repositorio a tu computadora.
 8. **Ejecutar el proyecto:** en la computadora.
+
+---
+
+## Referencias
+        Alura Latam (s.f.) Desarrollo de aplicaciones en Java con VsCode.https://www.aluracursos.com/blog/desarrollando-aplicaciones-java-code
+        Data Code (16 de mayo de 2022) Java - Configurar Visual Studio Code y Maven. https://www.youtube.com/watch?v=3mWGDArNYss&t=2s
