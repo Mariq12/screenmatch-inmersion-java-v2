@@ -62,6 +62,14 @@ El programa verifica una condición:
 * VsCode
 * Maven
 * Git
+* GitHub
+
+---
+
+## Instrucciones de prueba
+Para probar el proyecto se lo puede clonar o crear un proyecto directo en GitHub y copiar el código.
+
+A continuación, se realiza una breve descripción de los pasos a realizar para probar el proyecto.
 
 ---
 
@@ -298,4 +306,56 @@ Ver el paso 4.5 para continuuar.
         git config --global user.name "Tu nombre"
 
         git config --global user.email "ejemplo@email.com"
+---
+### GitHub
 
+**Crear proyecto en GitHub**
+
+Para crear un proyecto en GitHub se realizan los siguientes pasos:
+
+1. **Crear un repositorio en GitHub**: Iniciar sesión en GitHub, haz clic en "New", completa los detalles y crea un repositorio.
+
+2. **Configurar Git**: Ver paso anterior Git.
+
+3. **Inicializar un repositorio local**: Abrir la terminal, navega hasta tu proyecto y ejecuta `git init`.
+
+4. **Agregar archivos**: Usar `git add .` para agregar todos los archivos o `git add <nombre_del_archivo>` para archivos específicos.
+
+5. **Confirmar cambios**: Hacer un commit con `git commit -m "Mensaje descriptivo"`.
+
+6. **Conectar repositorio remoto**: Copia la URL del repositorio en GitHub y ejecuta `git remote add origin <URL_del_repositorio>`.
+
+7. **Subir cambios**: Usa `git push -u origin master` para subir los cambios al repositorio remoto en GitHub.
+
+El proyecto proyecto en GitHub.
+
+---
+
+**Clonar el proyecto de GitHub**
+
+Para clonar este proyecto en GitHub y poderlo probar se realizan los siguientes pasos:
+
+1. **Obtener la URL del repositorio:** En repositorio en GitHub:
+
+        Hacer clic en el botón verde "Code". 
+        Copia la URL que se muestra.
+
+<p align="center"><img src="https://live.staticflickr.com/65535/53692583549_d3482bcae5.jpg" alt="Paso 22"/>
+</p>
+
+2. **Abrir la terminal o línea de comandos:** desde la computadora.
+3. **Navegar a la ubicación deseada:** Utilizar el comando cd para navegar a la ubicación en la computadora donde se desea clonar el repositorio.
+4. **Clonar el repositorio:** Utilizar el comando 
+
+        git clone 
+        
+5. Agregar la URL que copiada anteriormente seguido de `git clone`. Por ejemplo:
+
+        git clone URL_DEL_REPOSITORIO
+
+6. **Se da enter al comando**
+
+        git clone https://github.com/Mariq12/screenmatch-inmersion-java-v2.git
+
+7. **Esperar a que se complete la clonación:** Git descargará todos los archivos del repositorio a tu computadora.
+8. **Ejecutar el proyecto:** en la computadora.
