@@ -125,7 +125,24 @@ El programa verifica una condición:
 
         https://code.visualstudio.com/
 
-2. Instalar VsCode 
+2. Instalar VsCode
+Una vez descargado lo ejecutamos y dar clic en `Siguiente`.
+3. Instalar desde VsCode la extensión:
+
+       Extension Pack for Java
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692023848_2db0cf163e.jpg" alt="Paso 7"/>
+</p>
+
+---
+
+        IntelliCode
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692023858_90b54879ca.jpg" alt="Paso 8"/>
+</p>
+
 
 ---
 
