@@ -175,6 +175,7 @@ Una vez descargado lo ejecutamos y dar clic en `Siguiente`.
 <p align="center">
   <img src="https://live.staticflickr.com/65535/53692446720_b2ac1cd9ec.jpg" alt="Paso 9"/>
 </p>
+
         4.4. Dar clic en Maven create from archetype:
 
 <p align="center">
@@ -229,20 +230,24 @@ En este caso cree un archivo en Disco D con el nombre:
 </p>
 
 ### Opción 2 (Alternativa):
-Para crear el proyecto se puede hacer:
+**Para crear un proyecto Java con Maven:**
 
-        4.6. Dar clic en:
+        - Ingresar a VsCode y dar clic en:
+                Explorador de archivos 
+
+        - Dar clic en:
                 MAVEN
-        4.7. Dar clic en:
+
+        -Dar clic en:
                 + (New Project)
-        4.8. Dar clic en Maven create from archetype:
 
 <p align="center">
 <p align="center">
   <img src="https://live.staticflickr.com/65535/53692516710_b36b8562b5.jpg" alt="Paso 21"/>
 </p>
         4.9. Dar clic en No Archetype...:
-Ver el paso 4.5
+
+Ver el paso 4.5 para continuuar.
 
 5. Abrir la carpeta creada
 
