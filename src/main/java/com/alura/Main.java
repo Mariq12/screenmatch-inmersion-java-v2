@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Bienvenidos a la inmersión en Java");
+        System.out.println("\n-------- Bienvenidos a la inmersión en Java --------\n");
 
-        // Declaración de variables
-        String[] nombres = {"Harry Potter 1 (y la piedra filosofal)", "Crepúsculo Luna Nueva", "Cantinflas el profe"};
+        // Declaración de variables de las películas 
+        String[] nombres = {"Harry Potter 1 y la piedra filosofal", "Crepúsculo Luna Nueva", "Cantinflas el profe"};
         int[] fechasDeLanzamiento = {2001, 2009, 1971};
         double[] evaluaciones = {4.8, 4.2, 4.6};
         boolean[] incluidosEnElPlanBasico = {true, true, false};
@@ -16,7 +16,6 @@ public class Main {
                 "Una joven se encuentra en un triángulo amoroso entre un vampiro y un hombre lobo",
                 "Un maestro poco convencional transforma la vida de sus estudiantes"
         };
-
         Scanner teclado = new Scanner(System.in);
         boolean continuar = true;
 
@@ -27,7 +26,7 @@ public class Main {
                 System.out.println((i + 1) + ". " + nombres[i]);
             }
 
-            System.out.println("Seleccione una película (1-" + nombres.length + ") o ingrese 0 para salir:");
+            System.out.print("\n Seleccione una película (1-" + nombres.length + ") o ingrese 0 para salir: ");
 
             int opcionPelicula = teclado.nextInt();
 
@@ -56,21 +55,24 @@ public class Main {
                 System.out.println("Película Retro que vale la pena ver");
             }
 
+            System.out.println("\n----- Ingresa la nota que le darías a esta película -----");
+            System.out.println("\nLa nota debe estar entre 1 a 5\n");
+
             // Solicitar las 3 notas de la película
             double totalNotas = 0;
             for (int i = 0; i < 3; i++) {
-                System.out.println("Ingresa la nota #" + (i + 1) + " que le darías a esta película:");
+                System.out.print("Nota " + (i + 1) + ": ");
                 double notaPelicula = teclado.nextDouble();
                 totalNotas += notaPelicula;
             }
 
             // Calcular la media de las notas
             double media = totalNotas / 3;
-            System.out.println("La media de la evaluación de " + nombres[indicePelicula] +
+            System.out.println("\nLa media de la evaluación de " + nombres[indicePelicula] +
                     " es: " + media);
 
             // Preguntar al usuario si quiere continuar
-            System.out.println("¿Desea elegir otra película? (Sí: 1, No: 0)");
+            System.out.print("\n¿Desea elegir otra película? (Sí: 1, No: 0): ");
             int opcionContinuar = teclado.nextInt();
             if (opcionContinuar == 0) {
                 continuar = false;
