@@ -245,6 +245,7 @@ En este caso cree un archivo en Disco D con el nombre:
 <p align="center">
   <img src="https://live.staticflickr.com/65535/53692516710_b36b8562b5.jpg" alt="Paso 21"/>
 </p>
+        
         4.9. Dar clic en No Archetype...:
 
 Ver el paso 4.5 para continuuar.
