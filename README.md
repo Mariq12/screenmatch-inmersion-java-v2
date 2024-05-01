@@ -48,3 +48,120 @@ El programa verifica una condición:
         Película Retro que vale la pena ver
 
 ---
+
+## Resultado
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53691679521_7f2ab42db4.jpg" alt="Paso 5"/>
+</p>
+
+## Tecnologías utilizadas durante el curso
+* Java
+
+## Tecnologías utilizadas durante el curso
+* VsCode
+* Maven
+* Git
+
+---
+
+## Configuración
+
+### JDK JAVA 
+**Pasos:**
+
+1. Descargar en el siguiente link la versión jdk-17:
+
+        https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+
+2. Instalar JDK
+
+3. Configurar 
+
+    **Pasos:**
+
+    3.1. Ingresar a Editar variables de entorno del sistema desde el buscador de Windows.
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53690397931_335ee366a8.jpg" alt="Paso 1"/>
+</p>
+
+    3.2. Dar clic en Variables de entorno.
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53690611433_df0ed822d6.jpg" alt="Paso 2"/>
+</p>
+
+    3.3. Ir a la ruta del JDK 
+        - Copiar la ruta del JDK.
+            `C:\Program Files\Java\jdk-17`
+        - Dar clic en `Editar la variable del sistema`.
+        - Agregar el nombre de la variable `JAVA_HOME`
+        - Pegar la ruta del JDK.
+        - Clic en Aceptar
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53689516437_0d5b5c50fb.jpg" alt="Paso 3"/>
+</p>
+    
+    3.4. Ingresar en en el `Path` de **variables del sistema** dando doble clic
+        - Dar clic en nuevo.
+        - Copiar la ruta del JDK
+            `C:\Program Files\Java\jdk-17\bin`
+        - Pegar la ruta del JDK.
+        - Clic en Aceptar
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53690748379_622c125c14.jpg" alt="Paso 4"/>
+</p>
+
+---
+
+### VsCode
+
+   **Pasos:**
+
+1. Descargar VsCode en el siguiente link de acuerdo al sistema operativo:
+
+        https://code.visualstudio.com/
+
+2. Instalar VsCode 
+
+---
+
+### Maven
+
+**Pasos:**
+
+1. Descargar en el siguiente link la versión apache-maven-3.9.6-bin.zip:
+
+        https://maven.apache.org/download.cgi
+
+2.  Descomprimir y copiar la carpeta en disco C
+        
+3.  Ingresar en el `Path` de **variables del sistema** dando doble clic
+    **Pasos:**
+    - Dar clic en nuevo.
+    - Copiar la ruta del JDK
+        `C:\Program Files\Java\jdk-17\bin`
+    - Pegar la ruta del JDK.
+    - Clic en Aceptar
+
+---
+
+### Git
+
+**Pasos:**
+
+1. Descarga el instalador de GIT, en este caso para Windows.
+        
+        https://git-scm.com/downloads
+
+2. Descargado el instalador, hacer doble clic sobre el ejecutable para que comience el proceso de instalación.
+3. Seguir las instrucciones que aparecerán en pantalla. Al igual que cualquier otro programa, aparecerá “Next” (siguiente) en varias ocasiones hasta que aparezca la opción “Finish” (terminar) para completar la instalación.
+4. Abrir el símbolo del sistema y escribir los siguientes comandos en la terminal, se debe cambiar `Tu Nombre` y `ejemplo@email.com` por nuestra información:
+    
+        git config --global user.name "Tu nombre"
+
+        git config --global user.email "ejemplo@email.com"
+
