@@ -117,6 +117,26 @@ El programa verifica una condición:
 
 ---
 
+### Maven
+
+**Pasos:**
+
+1. Descargar en el siguiente link la versión apache-maven-3.9.6-bin.zip:
+
+        https://maven.apache.org/download.cgi
+
+2.  Descomprimir y copiar la carpeta en disco C
+        
+3.  Ingresar en el `Path` de **variables del sistema** dando doble clic
+    **Pasos:**
+    - Dar clic en nuevo.
+    - Copiar la ruta del JDK
+        `C:\Program Files\Java\jdk-17\bin`
+    - Pegar la ruta del JDK.
+    - Clic en Aceptar
+
+---
+
 ### VsCode
 
    **Pasos:**
@@ -143,26 +163,117 @@ Una vez descargado lo ejecutamos y dar clic en `Siguiente`.
   <img src="https://live.staticflickr.com/65535/53692023858_90b54879ca.jpg" alt="Paso 8"/>
 </p>
 
-
----
-
-### Maven
-
+4. Crear un proyecto Java con Maven
 **Pasos:**
 
-1. Descargar en el siguiente link la versión apache-maven-3.9.6-bin.zip:
+        4.1. Crear un proyecto Java con Maven.
+        4.2. Ingresar a VsCode y dar clic en:
+                Explorador de archivos 
+        4.3. Dar clic en:
+                Create Java Proyect
 
-        https://maven.apache.org/download.cgi
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692446720_b2ac1cd9ec.jpg" alt="Paso 9"/>
+</p>
+        4.4. Dar clic en Maven create from archetype:
 
-2.  Descomprimir y copiar la carpeta en disco C
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692356664_003d5f1df6.jpg" alt="Paso 10"/>
+</p>
+
+        4.5. Dar clic en No Archetype...:
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692005331_db675b8d95.jpg" alt="Paso 11"/>
+</p>
+
+        4.6. Agregar un grupo:
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692218178_02b583fdd0.jpg" alt="Paso 12"/>
+</p>
+En este caso el grupo es 
         
-3.  Ingresar en el `Path` de **variables del sistema** dando doble clic
-    **Pasos:**
-    - Dar clic en nuevo.
-    - Copiar la ruta del JDK
-        `C:\Program Files\Java\jdk-17\bin`
-    - Pegar la ruta del JDK.
-    - Clic en Aceptar
+        com.alura
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53691123792_2da2a0fe5b.jpg" alt="Paso 13"/>
+</p>
+
+        4.7. Agregar el nombre del proyecto:
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692005271_0866f79579.jpg" alt="Paso 14"/>
+</p>
+
+El nombre puede ser descriptivo como por ejemplo: 
+
+        screenmatch-inmersion-java
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53691123757_1451b4b2b1.jpg" alt="Paso 15"/>
+</p>
+
+Pero en este caso el nombre del proyecto es:
+
+        screenmatch-inmersion-java-v2
+
+        4.8. Dar enter para crear el proyecto
+        4.9. Guardar el proyecto
+En este caso cree un archivo en Disco D con el nombre:
+        PROYECTO-INMERSION-JAVA
+        4.10. Seleccionar la carpeta PROYECTO-INMERSION-JAVA
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692446690_e0d30c55c7.jpg" alt="Paso 16"/>
+</p>
+
+### Opción 2 (Alternativa):
+Para crear el proyecto se puede hacer:
+
+        4.6. Dar clic en:
+                MAVEN
+        4.7. Dar clic en:
+                + (New Project)
+        4.8. Dar clic en Maven create from archetype:
+
+<p align="center">
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692516710_b36b8562b5.jpg" alt="Paso 21"/>
+</p>
+        4.9. Dar clic en No Archetype...:
+Ver el paso 4.5
+
+5. Abrir la carpeta creada
+
+        5.1. Dar clic en:
+        Abrir carpeta
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692218118_7810ab02db.jpg" alt="Paso 17"/>
+</p>
+
+        5.2. Seleccionar la carpeta creada
+        screenmatch-inmersion-java
+        5.3. Dar clic en:
+        Seleccionar carpeta
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692446665_7d9978d2bf.jpg" alt="Paso 18"/>
+</p>
+
+        5.4. Dar clic en:
+        Sí, confío en los autores
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692218123_1031bcfa68.jpg" alt="Paso 19"/>
+</p>
+
+        5.5. Proyecto con Java y Maven listo para ser usado
+
+<p align="center">
+  <img src="https://live.staticflickr.com/65535/53692005231_dd5205a140.jpg" alt="Paso 20"/>
+</p>
 
 ---
 
